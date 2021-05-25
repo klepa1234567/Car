@@ -63,7 +63,13 @@ class App extends Component {
         <div style ={divStyle}>
             <h1>{this.state.pageTitle}</h1>
             <button onClick={this.toggleCarsHander}>Toggle cars</button>
+            <div style={{
+                width:400,
+                margin:'auto',
+                paddingTop:'20px',
+            }}>
             { cars }
+            </div>
 
         </div>
         )
